@@ -42,9 +42,9 @@
 <title>Div konteinerio pavyzdys</title>
 
   <style>
-    /* Paprastas stilius, kad matytųsi konteinerio ribos */
+    
     .turinio-konteineris {
-      border: 2px solid #0077cc; /* mėlynas rėmelis aplink div */
+      border: 2px solid #0077cc; 
       padding: 15px;
       margin: 20px;
       background-color: #f0f8ff;
@@ -73,8 +73,48 @@
 
   </div>
 
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+  <title>Teksto formatavimo palyginimas</title>
+</head>
+<body>
+
+  <h1>Numeruotas sąrašas su <strong> ir <b></h1>
+  <ol>
+    <li><strong>Robotika</strong></li> 
+    <li><b>Įterptinės sistemos</b></li> 
+    <li>Automatikos sistemos</li>
+  </ol>
+
+  <h1>Sąrašas su <em>  <i>ir</h1>
+  <ul>
+    <li><em>Programavimas mikrokontroleriuose</em></li>
+    <li><i>PCB plokščių projektavimas</i></li> 
+    <li>Dirbtinis intelektas</li>
+  </ul>
+
+  <h1>Pastraipa su <u> pabraukimu</h1>
+  <p><u>Ši pastraipa yra pabraukta. Tradiciškai pabraukimas naudojamas nuorodoms, todėl jo naudojimas kitam tekstui gali klaidinti vartotoją.</u></p>
+
 </body>
 </html>
+
+<!--
+
+
+1. <strong> vs <b>
+   - <strong> – semantiškai nurodo, kad tekstas yra svarbus, o naršyklė dažniausiai paryškina.
+   - <b> – tik vizualiai paryškina tekstą, neturi semantinės reikšmės.
+
+2. <em> vs <i>
+   - <em> – semantiškai paryškina tekstą pasviruoju šriftu, nurodo pabrėžimą (emphasis).
+   - <i> – tik vizualiai pasviras tekstas, be semantinės reikšmės.
+
+3. <u>
+   - <u> pabraukia tekstą. Tradiciškai pabraukimas reiškia nuorodas, todėl naudojant jį kitam tekstui vartotojai gali būti klaidinami.
+-->
 
 <!--
 
@@ -94,8 +134,6 @@
    - <a> nuorodą,
    - <img> paveikslėlį,
    į vieną loginį bloką (sekciją).
-
-
 
 
  <!DOCTYPE html>  
@@ -119,6 +157,6 @@
 5. <title> ... </title>  
     Nurodo puslapio pavadinimą, kuris rodomas naršyklės kortelėje ar paieškos rezultatuose.
 
-6. <body> ... </body>  
+6. <body> ... </body>Zaraza  
     Puslapio turinio sritis – viskas, kas matoma vartotojui: tekstas, paveikslėliai, nuorodos, mygtukai ir pan.
 
