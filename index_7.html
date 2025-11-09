@@ -1,0 +1,154 @@
+<!--Tomas_Mackevicius_EF24_1-->
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8">
+ 
+  <title>Live Server demonstracija</title>
+</head>
+<body>
+  <h1>Tomas Mackevičius</h1>
+  <h5>Elektronikos inžinerija</h5>
+
+  <p>Man patinka dirbti su Arduino modeliais juos jungti, lituoti, programuoti</p>
+  <p>
+ <a href="https://www.w3schools.com/html/" target="_blank">
+  https://www.w3schools.com/html/
+</p>
+</a>
+
+<img src="paveikslai/jpg_dreamspace.jpg" alt="Aprašymas" width="400">
+
+
+
+ <h1>Man dominančios elektronikos sritys</h1>
+  
+ 
+  <ol>
+    <li>Robotika</li>
+    <li>Įterptinės sistemos (Embedded Systems)</li>
+    <li>Automatikos ir valdymo sistemos</li>
+  </ol>
+
+  <h2>Įgūdžiai ir technologijos, kurias noriu išmokti studijų metu</h2>
+  
+  
+  <ul>
+    <li>Programavimas mikrokontroleriuose (pvz., Arduino, STM32)</li>
+    <li>PCB plokščių projektavimas (pvz., Altium Designer, KiCad)</li>
+    <li>Dirbtinis intelektas ir jo taikymas elektronikoje</li>
+  </ul>
+
+<title>Div konteinerio pavyzdys</title>
+
+  <style>
+    
+    .turinio-konteineris {
+      border: 2px solid #0077cc; 
+      padding: 15px;
+      margin: 20px;
+      background-color: #f0f8ff;
+    }
+
+    .turinio-konteineris img {
+      width: 250px;
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+
+
+  <h1>Div konteinerio demonstracija</h1>
+
+ 
+  <div class="turinio-konteineris">
+
+
+    <a href="https://www.w3schools.com/html/" target="_blank">
+      Daugiau apie HTML žymes
+    </a>
+
+    <img src="paveikslai/container.webp" alt="iliustracija">
+
+  </div>
+
+
+  <h1>Numeruotas sąrašas su <strong> ir <b></h1>
+  <ol>
+    <li><strong>Robotika</strong></li> 
+    <li><b>Įterptinės sistemos</b></li> 
+    <li>Automatikos sistemos</li>
+  </ol>
+
+  <h1>Sąrašas su <em>  <i>ir</h1>
+  <ul>
+    <li><em>Programavimas mikrokontroleriuose</em></li>
+    <li><i>PCB plokščių projektavimas</i></li> 
+    <li>Dirbtinis intelektas</li>
+  </ul>
+
+  <h1>Pastraipa su <u> pabraukimu</h1>
+  <p><u>Ši pastraipa yra pabraukta. Tradiciškai pabraukimas naudojamas nuorodoms, todėl jo naudojimas kitam tekstui gali klaidinti vartotoją.</u></p>
+
+</body>
+</html>
+
+<!--
+
+
+1. <strong> vs <b>
+   - <strong> – semantiškai nurodo, kad tekstas yra svarbus, o naršyklė dažniausiai paryškina.
+   - <b> – tik vizualiai paryškina tekstą, neturi semantinės reikšmės.
+
+2. <em> vs <i>
+   - <em> – semantiškai paryškina tekstą pasviruoju šriftu, nurodo pabrėžimą (emphasis).
+   - <i> – tik vizualiai pasviras tekstas, be semantinės reikšmės.
+
+3. <u>
+   - <u> pabraukia tekstą. Tradiciškai pabraukimas reiškia nuorodas, todėl naudojant jį kitam tekstui vartotojai gali būti klaidinami.
+-->
+
+<!--
+
+
+1. <div> ... </div>
+   → Tai „division“ – padalinio arba konteinerio žymė.
+     Ji nenaudoja jokio specialaus formatavimo, bet leidžia:
+       - Sukelti kelis elementus į vieną grupę.
+       - Pritaikyti bendrą stilių (CSS).
+       - Lengviau valdyti išdėstymą (pvz., su „flexbox“ ar „grid“).
+
+2. class="turinio-konteineris"
+    Klasės pavadinimas, kuris leidžia su CSS nurodyti stilių visiems elementams toje grupėje.
+
+3. Šiame pavyzdyje <div> apjungia:
+   - <p> pastraipą (tekstą),
+   - <a> nuorodą,
+   - <img> paveikslėlį,
+   į vieną loginį bloką (sekciją).
+
+
+ <!DOCTYPE html>  
+    Nurodo naršyklei, kad dokumentas yra parašytas pagal HTML5 standartą.  
+     Tai padeda naršyklei tinkamai interpretuoti HTML struktūrą.
+
+2. <html> ... </html>  
+    Apgaubia visą HTML dokumento turinį.  
+     Tai pagrindinė šakninė žymė, nuo kurios prasideda kiekvienas HTML puslapis.
+
+3. <head> ... </head>  
+    Dokumento antraštės dalis – čia pateikiama techninė informacija, 
+     tokia kaip puslapio pavadinimas, simbolių koduotė, CSS ar „meta“ duomenys.  
+     Ši dalis **nerodoma tiesiogiai puslapyje**.
+
+4. <meta>  
+    Aprašo papildomą informaciją (metaduomenis) apie puslapį.  
+     Pvz., `charset="UTF-8"` nurodo simbolių koduotę,  
+     `name="viewport"` – kaip puslapis turėtų būti rodomas įvairiuose įrenginiuose.
+
+5. <title> ... </title>  
+    Nurodo puslapio pavadinimą, kuris rodomas naršyklės kortelėje ar paieškos rezultatuose.
+
+6. <body> ... </body>Zaraza  
+    Puslapio turinio sritis – viskas, kas matoma vartotojui: tekstas, paveikslėliai, nuorodos, mygtukai ir pan.
+
